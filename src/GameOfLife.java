@@ -79,7 +79,7 @@ public class GameOfLife {
 
     public void hold() {
         try {
-            Thread.sleep(400);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             System.out.println("Interrupted");
         }

@@ -6,6 +6,10 @@ public class GameOfLifeGUI extends JFrame {
     JLabel genLabel;
     JLabel aliveLabel;
 
+    //buttons
+    JToggleButton playPauseToggle;
+    JButton reset;
+
     public GameOfLifeGUI() {
         //Creating the frame
         setTitle("Game of Life");
